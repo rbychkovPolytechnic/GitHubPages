@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна - IT & Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Шапка сайту -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">WebDev<span>Studio</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Головна</a></li>
+                    <li><a href="about.html">Про мене</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Головний банер (Hero Section) -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Сучасна веб-розробка та дизайн</h1>
+                <p>Ласкаво просимо на мій навчальний проєкт! Тут зібрані мої практичні напрацювання, дослідження у сфері веб-технологій та цікаві корисні матеріали.</p>
+                <a href="about.html" class="btn">Дізнатися більше</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.jpg" alt="Веб-розробка">
+            </div>
+        </div>
+    </section>
+
+    <!-- Основний контент з боковою панеллю -->
+    <main class="container main-content">
+        <section class="cards-section">
+            <h2 class="section-title" onclick="popWindow()" id="for_test">Основні напрямки</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <img src="images/card1.jpg" alt="HTML5 & CSS3">
+                    <div class="card-body">
+                        <h3>HTML5 & CSS3</h3>
+                        <p>Семантична верстка, сучасні стандарти стилізації та створення зручних адаптивних веб-інтерфейсів.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/card2.jpg" alt="Flexbox Layout">
+                    <div class="card-body">
+                        <h3>CSS Flexbox</h3>
+                        <p>Гнучке розташування елементів на сторінці, вирівнювання та створення витонченої сітки контенту.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/card3.jpg" alt="UI/UX Design">
+                    <div class="card-body">
+                        <h3>Композиція та UI/UX</h3>
+                        <p>Дотримання правил балансу, контрасту, вирівнювання, єдності стилю та вільного простору.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Швидка інформація</h3>
+                <p>Практична робота виконується в рамках вивчення курсів веб-дизайну та фронтенд-розробки.</p>
+            </div>
+            <div class="widget">
+                <h3>Корисні посилання</h3>
+                <ul class="widget-list">
+                    <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Підвал сайту -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Студентський проєкт. Усі права захищено.</p>
+            <div class="footer-links">
+                <a href="index.html">Головна</a> | 
+                <a href="about.html">Про мене</a>
+            </div>
+        </div>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>
